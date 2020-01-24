@@ -5,14 +5,14 @@ import './login.css';
 import login3 from './images/login3.jpg';
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
-class LogIn extends React.Component {
+class Register extends React.Component {
   render() {
     return (
       <div id="login-main">
         <NavBar />
         <img src={login3} id="login-img" />
-        <Form id="login-page" method="post" action="/login">
-          <p id="login-text"><strong>Restaurant Manager</strong></p>
+        <Form id="login-page" method="post" action="/register">
+          <p id="login-text"><strong>Register</strong></p>
           <hr />
           <FormGroup>
             <Label for="exampleEmail">Username</Label>
@@ -29,4 +29,4 @@ class LogIn extends React.Component {
   }
 }
 
-export default LogIn;
+export default Register;

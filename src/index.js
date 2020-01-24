@@ -4,9 +4,10 @@ import ReactDOM from 'react-dom';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import BookTable from './book-table';
-import RestaurantUI from './RestaurantUI';
+import RestaurantUI from './dashboard';
 import Home from './home';
 import LogIn from './login';
+import Register from './register';
 import RestaurantList from './restaurantList';
 import * as serviceWorker from './serviceWorker';
 
@@ -16,8 +17,9 @@ const routing = (
       <Route exact path="/" component={Home} />
       <Route path="/restaurantList" component={RestaurantList} />
       <Route path="/login" component={LogIn} />
-      <Route path="/restaurantUI" component={RestaurantUI} />
+      <Route path="/dashboard" component={RestaurantUI} />
       <Route path="/book-table" component={BookTable} />
+      <Route path="/register" component={Register} />
     </div>
   </Router>
 )
