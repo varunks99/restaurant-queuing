@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
-import './index.css';
+import './styles/index.css';
 import BookTable from './book-table';
 import RestaurantUI from './dashboard';
 import Home from './home';

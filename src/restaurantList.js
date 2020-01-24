@@ -1,5 +1,5 @@
 import React from 'react';
-import './restaurantList.css';
+import './styles/restaurantList.css';
 import { Link } from 'react-router-dom';
 import { ListGroup, ListGroupItem, Badge, Button, Row, Col } from 'reactstrap';
 import NavBar from './navbar';
@@ -34,7 +34,7 @@ export default class RestaurantList extends React.Component {
              <ListGroupItem className="justify-content-between"> <img className="icon" src={bg1} /><strong>Prima Dora  </strong><Badge pill className="rating" id="rt6">{ratings[5]}</Badge><br/><span className="type">Italian, Continental   </span>
             <Link to="/book-table"><Button className="book">Book A Table</Button></Link></ListGroupItem>
 
-             <ListGroupItem className="justify-content-between"> <img className="icon" src={bg1} /><strong>Suresh Anna GIT  </strong><Badge pill className="rating" id="rt7">{ratings[6]}</Badge><br/><span className="type">Fast Food, Beverages   </span>
+             <ListGroupItem className="justify-content-between"> <img className="icon" src={bg1} /><strong>Mood For Food  </strong><Badge pill className="rating" id="rt7">{ratings[6]}</Badge><br/><span className="type">Fast Food, Beverages   </span>
              <Link to="/book-table"><Button className="book">Book A Table</Button></Link></ListGroupItem>
 
              <ListGroupItem className="justify-content-between"> <img className="icon" src={bg1} /><strong>Mughlai Palace  </strong><Badge pill className="rating" id="rt8">{ratings[7]}</Badge><br/><span className="type">North Indian, Biryani   </span>
@@ -49,8 +49,8 @@ export default class RestaurantList extends React.Component {
              <ListGroupItem className="justify-content-between"> <img className="icon" src={bg1} /><strong>Chez Moi   </strong><Badge pill className="rating" id="rt11">{ratings[10]}</Badge><br/><span className="type">French, Bakery   </span>
             <Link to="/book-table"><Button className="book">Book A Table</Button></Link></ListGroupItem>
 
-             <ListGroupItem className="justify-content-between"> <img className="icon" src={bg1} /><strong>Beirut Express  </strong><Badge pill className="rating" id="rt12">{ratings[11]}</Badge><br/><span className="type">Lebanese, Arabic   </span>
-             <Link to="/book-table"><Button className="book">Book A Table</Button></Link></ListGroupItem>
+             <ListGroupItem className="justify-content-between"> <img className="icon" src={bg1} /><strong>Suresh Anna GIT</strong><Badge pill className="rating" id="rt12">{ratings[11]}</Badge><br/><span className="type">Fast Food, Everything   </span>
+             <Link to="/book-table"><Button className="book">Book A Katta</Button></Link></ListGroupItem>
 
            </ListGroup>
          </Col>
