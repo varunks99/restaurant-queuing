@@ -134,10 +134,10 @@ class Info extends React.Component {
 
     return (
       <div id="booking-info">
-        <p>Number In Queue: {this.state.queue}</p>
-        <h2>Estimated Waiting Time: {this.state.time} min</h2>
+        <h2>Number In Queue: {this.state.queue}</h2>
+        <h3>Estimated Waiting Time: {this.state.time} min</h3>
         {this.props.clicked2 ? <div><h3>Next: {this.props.bookingID+this.state.queue}</h3>
-        <h3>Your Booking ID: {this.props.bookingID-1}</h3></div> : ''
+        <h5>Your Booking ID: {this.props.bookingID-1}</h5></div> : ''
         }
       </div>
   )

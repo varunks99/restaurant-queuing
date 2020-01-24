@@ -22,7 +22,7 @@ class LogIn extends React.Component {
             <Label for="examplePassword">Password</Label>
             <Input type="password" name="password" id="password" className="detail" placeholder="Enter Password" />
           </FormGroup>
-          <Link className="login-btn" to="/restaurantUI"><Button color="warning" id="login-button">Log In</Button></Link>
+          <Link className="login-btn" to="/dashboard"><Button color="warning" id="login-button">Log In</Button></Link>
         </Form>
       </div>
     )
